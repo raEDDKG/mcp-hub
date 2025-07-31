@@ -9,3 +9,43 @@ dist/
 build/
 /result
 junk/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+*.cover
+.hypothesis/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# uv
+.uv/
+uv.lock
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# MCP server specific
+mcp-servers/*/build/
+mcp-servers/*/dist/
+mcp-servers/*/.env
+mcp-servers/*/.env.local
